@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   port: process.env.PORT || 80,
   db: {
-    host: process.env.DB_HOST || "yamabiko.proxy.rlwy.net",
+    host: process.env.DB_HOST || "https://yamabiko.proxy.rlwy.net",
     user: process.env.DB_USER || "root",
     password: process.env.DB_PASSWORD || "dKjxnYeLeANjNrgvakSXBiKLJyHHTfUY",
     name: process.env.DB_NAME || "ligafemenina",
